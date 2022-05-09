@@ -1,0 +1,21 @@
+Package: comptest
+Type: Package
+Title: The Title of the Project
+Version: 0.0.0.9000
+Authors@R: c(
+    person(given   = "Tom Bech",
+           family  = "Letessier",
+           role    = c("aut", "cre", "cph"),
+           email   = "tomletessier@gmail.com",
+           comment = c(ORCID = "0000-0003-4011-0207")))
+Description: A paragraph providing a full description of the project (on 
+    several lines...)
+URL: https://github.com/tomletessier/comptest
+BugReports: https://github.com/tomletessier/comptest/issues
+License: GPL (>= 2)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Imports: 
+    devtools,
+    here
